@@ -1,0 +1,13 @@
+node_modules/
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+*.png
+
+# Persistent config (committed to repo)
+!.alidoc_config.json
+
+# Runtime state (daemon pid, cdp, browser profile) - NOT committed
+.alidoc_runtime/
+.alidoc_runtime_config.json

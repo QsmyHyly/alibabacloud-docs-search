@@ -1,0 +1,21 @@
+{
+  "name": "alibabacloud-docs-search",
+  "version": "1.0.0",
+  "description": "Alibaba Cloud Documentation Search & Retrieval Skill",
+  "main": "scripts/search_docs.js",
+  "scripts": {
+    "check": "node scripts/check_env.js",
+    "search": "node scripts/search_docs.js",
+    "fetch": "node scripts/fetch_page.js",
+    "list": "node scripts/list_products.js",
+    "notice": "python scripts/search_notice.py",
+    "models": "python scripts/search_models.py",
+    "api": "python scripts/search_api.py",
+    "help": "python scripts/search_help_center.py",
+    "interact": "python scripts/interact_doc.py"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.0",
+    "cheerio": "^1.0.0"
+  }
+}
